@@ -1,0 +1,30 @@
+
+
+.align_center{
+  display: flex;
+  align-items: center;
+}
+.nav_logo{
+  height: 50px;
+  margin-left: 3.6875rem;
+}
+.home_nav{
+  height: 3.6875rem;
+  background-color: #000000;
+}
+.links{
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 3.4375rem;
+}
+.links a{
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+#active a{
+  color: #f5a623;
+}

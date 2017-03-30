@@ -1,0 +1,88 @@
+html{
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.jumbotron{
+  background-image: url(../images/photos/dancers-photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0px;
+}
+.jumbotron .container-fluid{
+  width: 45rem;
+}
+.jumbotron h1, p{
+color: #ffffff;
+}
+.btn{
+  width:auto;
+  padding: 1.25rem 3.125rem;
+  background-color: #f5a623;
+  font-family: "Open Sans";
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-bottom: 3.125rem;
+  margin-top: 5rem;
+  border-radius: 5px;
+}
+.home_sections{
+  height: 31.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.section_one{
+  background-image: url(../images/photos/graffiti-photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0px;
+}
+.section_two{
+  background-image: url(../images/photos/fire-photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0px;
+}
+.section_three{
+  background-image: url(../images/photos/jump-photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0px;
+}
+.home_box{
+
+  height: 25rem;
+  width: 30rem;
+  color: #ffffff;
+}
+.section_one .home_box, .section_three .home_box{
+  background-color: rgba(120, 73, 225, 0.9);
+}
+.section_two .home_box{
+background-color: rgba(173, 74, 226, 0.9);
+}
+.home_box h2{
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 5rem;
+  margin-bottom: 1.25rem;
+  margin-left: 3rem;
+}
+.home_box p{
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: normal;
+}
+#read_more{
+  font-weight: bold;
+  margin-top: 1.25rem;
+}

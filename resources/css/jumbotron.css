@@ -1,0 +1,21 @@
+.jumbotron{
+  margin-top: 59px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.jumbotron h1{
+  font-size: 3.125rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+.jumbotron p{
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+}
+.jumbotron .container-fluid{
+  padding-left: 0px;
+}

@@ -1,0 +1,52 @@
+html{
+  font-size: 16px;
+}
+.jumbotron{
+  background-image: url(../images/photos/faculty-photo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  border-bottom: 10px solid #8a54ff;
+  height: 31rem;
+}
+
+.jumbotron p{
+color: #ffffff;
+}
+.jumbotron h1{
+color: #794ae2;
+margin-bottom: 41px;
+}
+.faculty_main{
+  margin-top: 5.625rem;
+  margin-right: 7.5rem;
+  margin-bottom: 11.25rem;
+  margin-left: 7.5rem;
+}
+
+.faculty_photo{
+  text-align: center;;
+  font-family: 'Roboto';
+  width: 16.875rem;
+}
+.faculty_photo h4{
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  margin-top: 1.25rem;
+}
+
+.faculty_photo p:nth-child(3) {
+  font-weight: bold;
+  margin-top: .625rem;
+  margin-bottom: .625rem;
+}
+.faculty_photo p:nth-child(4) {
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 6.25rem;
+  color: #666666;
+}
+footer {
+  margin-top: 5rem;
+}

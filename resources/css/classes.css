@@ -1,0 +1,44 @@
+html{
+  font-size: 16px;
+  font-family: 'Roboto';
+
+}
+.jumbotron{
+  background-color: white;
+  border-bottom: 10px solid #8a54ff;
+
+}
+.jumbotron h1{
+color: #794ae2;
+}
+.jumbotron p{
+  color: #666666;
+}
+.classes_text{
+  font-family: 'Roboto';
+
+}
+.classes_text h4{
+  font-size: 1.875rem;
+  font-weight: bold;
+  color:rgba(174,75,227,0.9)
+}
+.days{
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-top: 1.125rem;
+}
+.time{
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+}
+.descr{
+  font-size: .875rem;
+  line-height: 1.7;
+  padding-top: 1.125rem;
+  padding-bottom: 3.75rem;
+}
+.bottom{
+  padding-bottom: 2.4rem;
+}
