@@ -1,27 +1,32 @@
 
 
 .align_center{
+  height 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .nav_logo{
-  height: 50px;
-  margin-left: 3.6875rem;
+
+  margin-left: .625rem;
 }
 .home_nav{
-  height: 3.6875rem;
+  height: 2.5rem;
   background-color: #000000;
+  margin: 0px;
+  border: 0px;
 }
 .links{
   font-family: "Open Sans";
   font-size: 1rem;
   font-weight: bold;
   color: #ffffff;
-  margin-right: 3.4375rem;
+  margin-right: .625rem;
+  width: 100%;
 }
 .links a{
   font-family: "Open Sans";
-  font-size: 1rem;
+  font-size: .75rem;
   font-weight: bold;
   color: #ffffff;
 }
