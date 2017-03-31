@@ -5,25 +5,38 @@
 }
 .jumbotron h1{
 color: #794ae2;
+font-size: 1.25rem;
+margin-top: 1.625rem;
+margin-bottom: 1.625rem;
 }
 .jumbotron p{
   color: #666666;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.625rem;
+}
+.about_main img{
+  padding-bottom: .75rem
 }
 .text_left{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
   padding-left: 19%;
   padding-right: 19%;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 .text_right{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   background-color: #ffffff;
   padding-left: 19%;
   padding-right: 19%;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 .about_text{
   display: flex;
@@ -32,26 +45,27 @@ color: #794ae2;
   font-family: 'Roboto';
 }
 .about_text p{
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #666666;
-  padding-left: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  padding-right: 5rem;
+
+  padding-top: 1.875rem;
   text-align: center;
 }
 .about_text h2{
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #794ae2;
-  padding-top: 4rem;
+
 }
 .about_icons{
-  height: 9.375rem;
+  height: 6.25rem;
+
 }
 .map{
   background-image: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -59,25 +73,25 @@ color: #794ae2;
 }
 .map_box{
   background-color: rgba(173, 74, 226, 0.9);
-  height: 20rem;
+  height: 14rem;
   width: 25rem;
   color: #ffffff;
   font-family: 'roboto';
 }
 .map_box h2{
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 1.25rem;
   margin-left: 3rem;
 }
 .map_box p{
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.4;
   margin-left: 3rem;
   margin-right: 3rem;
-  
+
 }
 .bold{
   font-weight: bold;
