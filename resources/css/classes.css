@@ -6,16 +6,18 @@ html{
 .jumbotron{
   background-color: white;
   border-bottom: 10px solid #8a54ff;
+  margin-bottom: 5.3125rem
+}
 
+.classes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.jumbotron h1{
-color: #794ae2;
-}
-.jumbotron p{
-  color: #666666;
-}
+
 .classes_text{
   font-family: 'Roboto';
+  width: 17.5rem;
 
 }
 .classes_text h4{
@@ -24,20 +26,20 @@ color: #794ae2;
   color:rgba(174,75,227,0.9)
 }
 .days{
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: bold;
-  padding-top: 1.125rem;
+  padding-top: .625rem;
 }
 .time{
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: .875rem;
+  line-height: 1.7;
   color: #000000;
 }
 .descr{
   font-size: .875rem;
   line-height: 1.7;
-  padding-top: 1.125rem;
-  padding-bottom: 3.75rem;
+  padding-top: .625rem;
+  padding-bottom: 2.5rem;
 }
 .bottom{
   padding-bottom: 2.4rem;

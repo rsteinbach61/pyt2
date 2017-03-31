@@ -3,18 +3,8 @@
   border-bottom: 10px solid #8a54ff;
   margin-bottom: 0px;
 }
-.jumbotron h1{
-color: #794ae2;
-font-size: 1.25rem;
-margin-top: 1.625rem;
-margin-bottom: 1.625rem;
-}
-.jumbotron p{
-  color: #666666;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.625rem;
-}
+
+
 .about_main img{
   padding-bottom: .75rem
 }

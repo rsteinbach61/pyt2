@@ -1,20 +1,24 @@
 .jumbotron{
-  margin-top: 59px;
+  margin-top: 50px;
   padding-bottom: 0px;
   padding-top: 0px;
+
 }
 .jumbotron h1{
-  font-size: 1.875rem;
+  color: #794ae2;
+  font-size: 1.25rem;
+  margin-top: 1.625rem;
+  margin-bottom: 1.625rem;
   font-family: "Roboto";
   font-weight: bold;
-  margin-top: 7.125rem;
-  margin-bottom: 1.625rem;
+
 }
 .jumbotron p{
   font-family: "Roboto";
+  color: #666666;
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 0px;
+  margin-bottom: 1.625rem;
 
 }
 .jumbotron .container-fluid{
