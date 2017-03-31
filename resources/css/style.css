@@ -90,7 +90,57 @@ background-color: rgba(173, 74, 226, 0.9);
   font-weight: normal;
 }
 #read_more{
-  font-size: 1rem;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .jumbotron .container-fluid{
+    width: 31.25rem;
+}
+.home_box h2{
+  font-size: 1.875rem;
+
+  line-height: 1.4;
+  margin-top: 1.875rem;
+  margin-bottom: .625rem;
+  margin-left: 1.875rem;
+}
+.home_box p{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 1.875rem;
+  margin-right: 3.4375rem;
+  font-weight: normal;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron .container-fluid{
+    width: 45rem;
+}
+.home_box{
+  height: 25rem;
+  width: 27rem;
+}
+.home_sections{
+  display: flex;
+  justify-content: flex-end;
+}
+.home_box h2{
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin-top: 5rem;
+  margin-bottom: 1.25rem;
+  margin-left: 3rem;
+}
+.home_box p{
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+#read_more{
+  margin-top: 1.25rem;
+}
 }

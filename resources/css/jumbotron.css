@@ -24,3 +24,14 @@
 .jumbotron .container-fluid{
   padding-left: 0px;
 }
+@media only screen and (min-width: 992px) {
+  .jumbotron h1{
+    font-size: 3.125rem;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+  }
+  .jumbotron p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
