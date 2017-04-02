@@ -34,7 +34,7 @@ html{
   text-align: center;;
   font-family: 'Roboto';
   width: 16.875rem;
-  mar
+
 }
 .faculty_photo h4{
   font-size: 1.5rem;
@@ -58,4 +58,25 @@ html{
 }
 footer {
   margin-top: .6875rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .faculty_main{
+    margin-bottom: 11.25rem;
+}
+.faculty_photo{
+  height: 24rem;
+  width: 100%;
+  margin-bottom: 6.25rem;
+}
+}
+
+@media only screen and (min-width: 992px){
+  .faculty_main{
+    margin-bottom: 11.25rem;
+  }
+  .faculty_photo{
+    height: 24rem;
+    width: 100%;
+    margin-bottom: 6.25rem;
+  }
 }
