@@ -114,7 +114,7 @@ background-color: rgba(173, 74, 226, 0.9);
   font-weight: normal;
 }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
   .jumbotron .container-fluid{
     width: 45rem;
 }

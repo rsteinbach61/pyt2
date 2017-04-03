@@ -36,12 +36,12 @@ footer{
   padding-top: 1.875rem;
 }
 #copy{
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 #contact{
   padding-right: 3rem;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
 .social{
   height: 5rem;
   width: 100%;

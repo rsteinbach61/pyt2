@@ -8,6 +8,9 @@ html{
   border-bottom: 10px solid #8a54ff;
   margin-bottom: 5.3125rem
 }
+.classes_main.container{
+  text-align: center;
+}
 .classes_text{
   font-family: 'Roboto';
   width: 17.5rem;
@@ -41,7 +44,7 @@ html{
     width: 18.75rem;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) {
   .days{
   font-size: 1.125rem;
   padding-top: 1.125rem;
